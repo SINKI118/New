@@ -1,25 +1,42 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>MessiImage</title>
+  <title>Messi</title>
   <style>
     body {
-      background: #000;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      background: linear-gradient(to right, #0033a0, #a50044);
+      color: white;
+      font-family: Tahoma, sans-serif;
+      text-align: center;
+      padding: 40px;
     }
-    img {
-      max-width: 95%;
-      max-height: 95vh;
+    video {
+      width: 80%;
+      max-width: 700px;
       border-radius: 12px;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    a:hover {
+      background: #444;
     }
   </style>
 </head>
 <body>
-  <img src="Messi.jpg" alt="Messi" />
+  <h1>🎥 Messi</h1>
+  <video controls autoplay>
+    <source src="Messi.mp4" type="video/mp4" />
+  </video>
+  <br />
+  <a href="Media.html">🔙 الرجوع إلى معرض برشلونة</a>
 </body>
 </html>
